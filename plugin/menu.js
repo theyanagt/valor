@@ -176,7 +176,7 @@ function wish() {
 }
 function timeimg() {
     let imgloc = ''
-  const time = moment.tz('Asia/Kolkata').format('HH')
+  const time = moment.tz('Asia/Jakarta').format('HH')
   imgloc = ('./media/menu.jpg')
   if (time >= 0) {
     imgloc = ('./media/midnight.jpg')
