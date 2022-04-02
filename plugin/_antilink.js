@@ -16,4 +16,4 @@ handler.before = function (m, { user, isAdmin, isBotAdmin }) {
 }
 handler.group = true
 
-module.exports = handler
+export default handler
